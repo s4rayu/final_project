@@ -1,6 +1,6 @@
 H Table: (M=3.0,Z=0.03)
 
-Isotope		Yields
+Isotopes	Yields
 H-1		9.8368931E-01	
 H-2		4.0897649E-06	
 He-3		2.2804791E-04	
