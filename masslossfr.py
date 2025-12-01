@@ -39,8 +39,8 @@ all_iso = pd.concat(dfs, ignore_index=True)
 # In[4]:
 
 
-print(all_iso.head())
-print(all_iso.columns)
+# print(all_iso.head())
+# print(all_iso.columns)
 
 
 # In[5]:
@@ -56,8 +56,8 @@ endpoints = (all_iso_sorted
 
 #relevant column from this table is the "star_mass"
 #that tells us what the final mass after winds is based on initial mass and [Fe/H]
-print(endpoints.head())
-print(endpoints.tail())
+# print(endpoints.head())
+# print(endpoints.tail())
 
 
 # In[20]:
@@ -112,7 +112,7 @@ def get_effective_mass(df, FeH, initial_mass):
 
 #testing to see if the function works (sobsobsob)
 final_m = get_effective_mass(endpoints, FeH = -0.25, initial_mass=6)
-print(final_m)
+# print(final_m)
 
 
 # ## Visualizations
@@ -169,7 +169,7 @@ def plot_massloss_evol(df, initial_mass, FeH):
 
 
 #testing
-plot_massloss_evol(all_iso, initial_mass=13.0, FeH=-1.0)
+# plot_massloss_evol(all_iso, initial_mass=13.0, FeH=-1.0)
 
 
 # In[ ]:
